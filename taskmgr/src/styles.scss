@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+html, body, app-root, .site {
+    width:100%;
+    height: 100%;
+    margin: 0;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //set alignment to left , right, space-around, space-between
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: center;
+    //space
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 10px;
+    }
+
+    .box{
+        width: 300px;
+        height: 300px;
+        background-color: red;
+        margin: 10px;
+    }
+    
+}
+// main 
+
+.box{
+
+}
+header{
+    background-color: green;
+}
+
+footer{
+    background-color: blue;
+}
